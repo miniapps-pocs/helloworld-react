@@ -1,5 +1,5 @@
 <p align="center">
-    <a src="https://img.shields.io/badge/poc-v1.0.0-yellow"/>
+    <img src="https://img.shields.io/badge/poc-v1.0.0-yellow"/>
 </p>
 
 # poc helloworld-reac
