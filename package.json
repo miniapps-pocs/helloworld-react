@@ -1,0 +1,33 @@
+{
+  "name": "helloworld-react",
+  "version": "1.0.0",
+  "description": "estudar a possibilidade do uso de um padrão de desenvolvimento com react js, mais precisamente o padrão MVVM com modelo de navegação SPA.",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagociandt/helloworld-react.git"
+  },
+  "keywords": [
+    "React",
+    "MVVM",
+    "poc",
+    "reactjs",
+    "Flux",
+    "Redux"
+  ],
+  "author": "Tiago Almeida de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagociandt/helloworld-react/issues"
+  },
+  "homepage": "https://github.com/tiagociandt/helloworld-react#readme",
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^3.9.5"
+  }
+}
