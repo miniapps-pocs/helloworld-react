@@ -1,5 +1,7 @@
 <p align="center">
-    <img src="https://img.shields.io/badge/poc-v1.0.0-yellow"/>
+    <img src="https://img.shields.io/badge/poc-v1.0.0-yellow" />
+    <img src="https://img.shields.io/npm/types/@types/react?label=@react" />
+    <img src="https://img.shields.io/npm/types/@types/react-dom?label=@react-dom" />
 </p>
 
 # poc helloworld-reac
