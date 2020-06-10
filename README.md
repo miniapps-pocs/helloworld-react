@@ -2,6 +2,7 @@
     <img src="https://img.shields.io/badge/poc-v0.1.0-yellow" />
     <img src="https://img.shields.io/npm/types/@types/react?label=@react" />
     <img src="https://img.shields.io/npm/types/@types/react-dom?label=@react-dom" />
+    <img src="https://img.shields.io/librariesio/release/npm/mobx?label=mobx" />
 </p>
 
 # poc helloworld-react
