@@ -29,7 +29,7 @@
 
 # Objetivo
 
-Pude percerber que o modelo proposto do react não é muito comum o uso do padrão MVVM pois o desafio é manter os dados de sessão e trafegar as informações necessários sem perfer a sessão do client.
+Pude perceber que o modelo proposto do react não é muito comum o uso do padrão MVVM pois o desafio é manter os dados de sessão e trafegar as informações necessários sem perder a sessão do client.
 
 O objeto é conseguir esse trafego de modo satisfatorio utilizando o padrão MVVM.
 
