@@ -38,9 +38,9 @@ O typescript foi escolhido por ter um paradigma forte de tipagem possibilitando 
 - Etapa de criação de adição necessária
 - Inviabiliza o uso de algumas libs
 
-fontes:
-[Rocktseat](https://medium.com/rocketseat/do-javascript-ao-typescript-why-916d0a5587de#:~:text=Tipos,leg%C3%ADvel%2C%20e%20livre%20de%20erros.)
-[TypeScript vs. JavaScript (Pros / cons)](https://khalilstemmler.com/articles/javascript-vs-typescript/)
+Fontes:
+- [Rocktseat](https://medium.com/rocketseat/do-javascript-ao-typescript-why-916d0a5587de#:~:text=Tipos,leg%C3%ADvel%2C%20e%20livre%20de%20erros.)
+- [TypeScript vs. JavaScript (Pros / cons)](https://khalilstemmler.com/articles/javascript-vs-typescript/)
 
 ### Premissas
 A Poc inicialmente abrangerá o conceito arquitetural da solução.
