@@ -12,7 +12,6 @@ A Ideia da poc e criar um componente principal que faça navegação e trafegue 
 
 Segundo ideia do uso de MVVM a estrutura inicial terá a seguinte estrutura.
 
-
 - App
     - FirstView
         - FirstViewModel    
@@ -44,7 +43,6 @@ Fontes:
 
 ### Premissas
 A Poc inicialmente abrangerá o conceito arquitetural da solução.
-
 
 # Objetivo
 Pude perceber que o modelo proposto do react não é muito comum o uso do padrão MVVM pois o desafio é manter os dados de sessão e trafegar as informações necessários sem perder a sessão do client.
