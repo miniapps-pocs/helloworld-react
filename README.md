@@ -12,11 +12,12 @@
 
 - App
     - FirstView
-        - FirstViewModel
-        - FirstModel
+        - FirstViewModel    
     - SecondView
         - SecondViewModel
-        - SecondModel
+- Model
+    - FirstModel
+    - SecondModel
 
 ### Considerações
 
