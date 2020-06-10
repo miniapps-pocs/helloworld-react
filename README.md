@@ -1,11 +1,17 @@
+# React POC MVVM
 <p align="center">
     <img src="https://img.shields.io/badge/poc-v0.1.0-yellow" />
     <img src="https://img.shields.io/npm/types/@types/react?label=@react" />
     <img src="https://img.shields.io/npm/types/@types/react-dom?label=@react-dom" />
     <img src="https://img.shields.io/librariesio/release/npm/mobx?label=mobx" />
+    <img src="https://img.shields.io/librariesio/release/npm/mobx?label=react-router-dom" />
 </p>
 
-# poc helloworld-react
+# Objetivo
+Pude perceber que o modelo proposto do react não é muito comum o uso do padrão MVVM pois o desafio é manter os dados de sessão e trafegar as informações necessários sem perder a sessão do client.
+
+O objeto é conseguir esse trafego de modo satisfatorio utilizando o padrão MVVM.
+
 A ideia dessa POC é estudar a possibilidade do uso de um padrão de desenvolvimento com react js, mais precisamente com o padrão MVVM com modelo de navegação SPA.
 
 A Ideia da poc e criar um componente principal que faça navegação e trafegue valores  entre dois componentes.
@@ -20,6 +26,9 @@ Segundo ideia do uso de MVVM a estrutura inicial terá a seguinte estrutura.
 - Model
     - FirstModel
     - SecondModel
+
+### Premissas
+A Poc inicialmente abrangerá o conceito arquitetural da solução.
 
 ### Considerações
 Embora eu tenha experiência em desenvolvimento web o react para mim é um paradigma diferente, então, pode ter itens que poderão ser melhorados com o tempo.
@@ -40,15 +49,6 @@ O typescript foi escolhido por ter um paradigma forte de tipagem possibilitando 
 Fontes:
 - [Rocktseat](https://medium.com/rocketseat/do-javascript-ao-typescript-why-916d0a5587de#:~:text=Tipos,leg%C3%ADvel%2C%20e%20livre%20de%20erros.)
 - [TypeScript vs. JavaScript (Pros / cons)](https://khalilstemmler.com/articles/javascript-vs-typescript/)
-
-### Premissas
-A Poc inicialmente abrangerá o conceito arquitetural da solução.
-
-# Objetivo
-Pude perceber que o modelo proposto do react não é muito comum o uso do padrão MVVM pois o desafio é manter os dados de sessão e trafegar as informações necessários sem perder a sessão do client.
-
-O objeto é conseguir esse trafego de modo satisfatorio utilizando o padrão MVVM.
-
 
 # __[React](https://github.com/facebook/create-react-app)__
 
