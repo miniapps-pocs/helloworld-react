@@ -34,7 +34,7 @@ O typescript foi escolhido por ter um paradigma forte de tipagem possibilitando 
 - Generics
 - classes
 
-### Contras
+#### Contras
 - Etapa de criação de adição necessária
 - Inviabiliza o uso de algumas libs
 
