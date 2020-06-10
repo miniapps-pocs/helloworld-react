@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/npm/types/@types/react-dom?label=@react-dom" />
 </p>
 
-# poc helloworld-reac
+# poc helloworld-react
 
     A ideia dessa POC é estudar a possibilidade do uso de um padrão de desenvolvimento com react js, mais precisamente com o padrão MVVM com modelo de navegação SPA.
     A Ideia da poc e criar um componente principal que faça navegação e trafegue valores entre dois componentes.
@@ -22,6 +22,10 @@
 
     Embora eu tenha experiência em desenvolvimento web o react para mim é um paradigma diferente, então, pode ter itens que poderão ser melhorados com o tempo.
     O typescript foi escolhido por ter um paradigma forte de tipagem possibilitando leva o JavaScript um passo adiante, permitindo a refatoração de código, recursos de navegação, verificação de tipo e etc.
+
+### Premissas
+    A Poc inicialmente abrangerá o conceito arquitetural da solução.
+
 
 # Objetivo
 

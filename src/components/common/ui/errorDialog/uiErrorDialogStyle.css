@@ -1,0 +1,36 @@
+.error-text {
+    position: static;
+    left: 20px;
+    right: 0px;
+    top: 2px;
+    bottom: 2px;
+}
+
+.error-text span {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.error-text span div {
+    color: #F98F25;
+}
+
+.error-text span div {
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 4px 0px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .error-text img {
+        position: absolute;
+        left: 8.33%;
+        right: 8.33%;
+        top: 8.33%;
+        bottom: 8.33%;
+    }
+}

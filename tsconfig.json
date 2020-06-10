@@ -19,6 +19,7 @@
     "noEmit": true,
     "jsx": "react"
   },
+  "presets": ["@babel/preset-typescript"],
   "include": [
     "src"
   ]
