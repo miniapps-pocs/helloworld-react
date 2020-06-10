@@ -13,6 +13,8 @@ export default class RootComponent extends Component {
         value: 0
     }
 
+    // TODO: CRIAR NAVEGAÇÃO ENTRE COMPONENTES, npm install react-router-dom
+
     goToFirstComponent = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         this.setState({ 
             component:  <FirstComponentView />
@@ -59,7 +61,7 @@ export default class RootComponent extends Component {
                         <button onClick={this.increment}>State change</button>
                         
                         <div>
-                            <UITextField label="Valor" value={this.state.value} />
+                            <UITextField label="Valor" value={this.state.value} /> 
                         </div>
 
                     </div>

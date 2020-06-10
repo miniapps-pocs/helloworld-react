@@ -6,10 +6,12 @@
 </p>
 
 # poc helloworld-react
+A ideia dessa POC é estudar a possibilidade do uso de um padrão de desenvolvimento com react js, mais precisamente com o padrão MVVM com modelo de navegação SPA.
 
-    A ideia dessa POC é estudar a possibilidade do uso de um padrão de desenvolvimento com react js, mais precisamente com o padrão MVVM com modelo de navegação SPA.
-    A Ideia da poc e criar um componente principal que faça navegação e trafegue valores entre dois componentes.
-    Segundo ideia do uso de MVVM a estrutura inicial terá a seguinte estrutura.
+A Ideia da poc e criar um componente principal que faça navegação e trafegue valores  entre dois componentes.
+
+Segundo ideia do uso de MVVM a estrutura inicial terá a seguinte estrutura.
+
 
 - App
     - FirstView
@@ -21,16 +23,30 @@
     - SecondModel
 
 ### Considerações
+Embora eu tenha experiência em desenvolvimento web o react para mim é um paradigma diferente, então, pode ter itens que poderão ser melhorados com o tempo.
+O typescript foi escolhido por ter um paradigma forte de tipagem possibilitando leva o JavaScript um passo adiante, permitindo a refatoração de código, recursos de navegação, verificação de tipo e etc.
 
-    Embora eu tenha experiência em desenvolvimento web o react para mim é um paradigma diferente, então, pode ter itens que poderão ser melhorados com o tempo.
-    O typescript foi escolhido por ter um paradigma forte de tipagem possibilitando leva o JavaScript um passo adiante, permitindo a refatoração de código, recursos de navegação, verificação de tipo e etc.
+## Typescript
+
+#### Pros
+- Tipagem
+- Herança
+- Generics
+- classes
+
+### Contras
+- Etapa de criação de adição necessária
+- Inviabiliza o uso de algumas libs
+
+fontes:
+[Rocktseat](https://medium.com/rocketseat/do-javascript-ao-typescript-why-916d0a5587de#:~:text=Tipos,leg%C3%ADvel%2C%20e%20livre%20de%20erros.)
+[TypeScript vs. JavaScript (Pros / cons)](https://khalilstemmler.com/articles/javascript-vs-typescript/)
 
 ### Premissas
-    A Poc inicialmente abrangerá o conceito arquitetural da solução.
+A Poc inicialmente abrangerá o conceito arquitetural da solução.
 
 
 # Objetivo
-
 Pude perceber que o modelo proposto do react não é muito comum o uso do padrão MVVM pois o desafio é manter os dados de sessão e trafegar as informações necessários sem perder a sessão do client.
 
 O objeto é conseguir esse trafego de modo satisfatorio utilizando o padrão MVVM.

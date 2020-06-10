@@ -4,6 +4,10 @@ export class FirstComponentViewModel implements IFirstComponentViewModel {
     
     model?: UserModel;
 
+    // TODO: Criar um jeito que usar um obsever
+
+    
+
     fetchUser() {
         this.model = new UserModel('tiago', 'tiagoo@ciant.com')
     }
