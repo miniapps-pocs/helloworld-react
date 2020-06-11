@@ -1,12 +1,8 @@
 import React, { Component } from "react";
-import RootComponent from "./components/RootComponent";
+import AppRoutes from './AppRoutes';
 
 export default class App extends Component {
-
   render() {
-    return (
-      <RootComponent />
-    );
+    return <AppRoutes />
   }
-
 }

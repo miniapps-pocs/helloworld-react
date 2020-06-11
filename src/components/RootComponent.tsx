@@ -1,11 +1,8 @@
-
-import React, { Component } from 'react';
+import React, { Component, Props } from 'react';
 import logo from "./logo.svg";
 import "./RootComponentStyle.css";
-import { SecondComponentView } from './secondComponent/secondComponentView';
-import { FirstComponentView } from './firstComponent/firstComponentView';
 import { UILabel } from './common/ui/label/uiLabel';
-import { UITextField } from './common/ui/textField/uiTextField';
+import { useHistory, Link } from 'react-router-dom';
 
 export default class RootComponent extends Component {
 
@@ -13,21 +10,18 @@ export default class RootComponent extends Component {
         value: 0
     }
 
-    // TODO: CRIAR NAVEGAÇÃO ENTRE COMPONENTES, npm install react-router-dom
+    goBackRootFromFirst = () => {
+        
+    }
 
     goToFirstComponent = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-        this.setState({ 
-            component:  <FirstComponentView />
-        });
     }
 
     goToSecondComponent = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-        this.setState({ 
-            component: <SecondComponentView />
-        });
+
     }
 
-    increment = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    increment = () => {
         this.setState({ value: this.state.value+1 });
     }
 
@@ -55,14 +49,12 @@ export default class RootComponent extends Component {
                         <p>{componentName || 'Nenhum valor foi atribuido'}</p>
                         
                         <UILabel text={name} />
-
-                        <button onClick={this.goToSecondComponent}>First Component</button>
+                        <Link to="/first">First Component</Link>
+                        <button onClick={this.goToFirstComponent}>First Component</button>
                         <button onClick={this.goToSecondComponent}>Second Component</button>
                         <button onClick={this.increment}>State change</button>
                         
-                        <div>
-                            <UITextField label="Valor" value={this.state.value} /> 
-                        </div>
+                        <UILabel text={this.state.value?.toString() || "0"} />
 
                     </div>
                     
